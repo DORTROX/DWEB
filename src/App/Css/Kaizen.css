@@ -1,0 +1,115 @@
+.mainKaizenAv {
+    display: flex;
+    height: 30vw;
+}
+
+.mainKaizenL {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.mainKaizenL .card {
+    position: relative;
+    height: 30vh;
+    width: 30vw;
+}
+
+.mainKaizenL .card .banner {
+    height: 15vh;
+    width: 30vw;
+    background-color: rgb(133 133 133);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.mainKaizenL .card .about {
+    padding-top: 5em;
+    height: 30vh;
+    width: 30vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(29 27 40);
+}
+
+.mainKaizenL .card .about .abContent {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    color: rgb(203, 199, 199);
+    font-size: 20px;
+}
+
+.mainKaizenL .card .about .abContent p {
+    margin-bottom: .5em;
+}
+
+.mainKaizenL .card .about .abContent h6 {
+    color: white;
+}
+
+.mainKaizenL img {
+    top: 5vh;
+    left: 1vw;
+    position: absolute;
+    width: 7em;
+    border-radius: 50%;
+    border: 10px solid  rgb(29 27 40);
+}
+
+.mainKaizenR { 
+    margin-left: 10vw;
+}
+
+.mainKaizenR .buttonFlex{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainKaizenR .buttons p{
+    padding: .5em;
+    background-color: rgb(54, 159, 204);
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+.mainKaizenR .tokenFlex {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.mainKaizenR .tokenFlex .tokenInfo {
+    position: sticky;
+    color: white;
+    top: 0;
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+.mainKaizenR .tokenFlex .RecentTokens {
+    color: white;
+    height: 15vh;
+    overflow-y: scroll;
+}
+
+.sc1::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.sc1::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.sc1::-webkit-scrollbar-thumb {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+}

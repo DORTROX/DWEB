@@ -1,0 +1,67 @@
+.AboutUs {
+    height: 92vh;
+    width: 100vw;
+    position: relative;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+.ScreenOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.VidContent {
+    color: rgb(229, 225, 225);
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+.mainContent h1 {
+    font-size: 40px;
+}
+
+.ContentWriting {
+    display: flex;
+    margin-top: 5em;
+    height: 100%;
+    align-items: center;
+}
+
+.ContentWriting a {
+    margin: 1em;
+    border: 2px solid wheat ;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    padding: .5em;
+    transition: all 0.2s ease;
+}
+
+.ContentWriting a:hover {
+    background-color: white;
+    color: #2196F3;
+}
+
+
+@media (max-width: 935px) {
+    .ContentWriting {
+         display: block;
+    }
+    .ContentWriting a {
+        margin: 0;
+    }
+    .ContentWriting p{
+        margin-bottom: 2em;
+    }
+}
